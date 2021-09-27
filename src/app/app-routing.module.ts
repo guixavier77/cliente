@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: 'entregas',
-    loadChildren: () => import('./acceptentregas/entregas.module').then( m => m.EntregasPageModule)
+    loadChildren: () => import('./cad/entregas.module').then( m => m.EntregasPageModule)
   }
 
 ];
